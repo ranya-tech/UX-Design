@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 10px 60px;
+    background-color: #FFE3E0;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 20px;
+    font-size: 22px;
+    color: black;
+}
+header > a{
+    color: black;
+    text-decoration: none;
+}
+
+h2{
+    margin-right: auto;
+    font-size: 40px;
+    font-family: 'Jacques Francois';
+}
+
+
+section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-around;
+    background-color: #C89795;
+    align-items: center;
+    padding: 15px;
+}
+
+img{
+    width: 115px;
+    height: 160px;
+    border-radius: 50%;
+    border: solid 1px;
+    size: 10px;
+}
+#profil{
+    text-align: center;
+    margin: 20px 42px;
+    line-height:1.4;
+    font-size: 25px;
+
+}
+main{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr;
+    gap: 20%;
+    padding-top: 20px;
+}
+h3{
+    padding-left: 10px;
+}
+.div1{
+    background-color: #C89795;
+    line-height:1.4;
+    border: solid 2px;
+    padding: 10px;
+    gap: 35px;
+
+}
+.div1 >div{
+    margin: 20px 10px;
+    padding: 20px;
+    line-height:1.6;
+    font-size: 25px;
+}
+
+
+.div1 > p {
+    text-align: center;
+}
+
+.div2 >div{
+    border-radius: 30px;
+    background-color: #C89795;
+    margin: 20px 10px 0px 10px;
+    padding: 25px;
+    line-height:1.6;
+    font-size: 25px;
+}
+.div2{
+    margin-top: 35px;
+}
+div > p {
+ text-align: center;
+}
+
+footer{
+    margin-top: 20px;
+}
+footer >h3{
+    font-size: 28px;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px 0px;
+    background-color: #C89795;
+    padding: 30px 40px;
+    border: solid 1px;
+    font-size: 20px; 
+}
+nav > a {
+    color: black;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+
+  body {
+    margin: 8px 10px;
+  }
+
+  header {
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+  }
+
+  h2 {
+    margin-right: 0;
+    font-size: 26px;
+    text-align: center;
+  }
+
+  header > a {
+    font-size: 16px;
+  }
+
+  img {
+    width: 90px;
+    height: 130px;
+  }
+
+  #profil {
+    font-size: 18px;
+    margin: 15px;
+  }
+
+  .div1,
+  .div2 > div {
+    font-size: 18px;
+    padding: 15px;
+  }
+
+  nav {
+    flex-direction: column;
+    align-items: center;
+    font-size: 16px;
+    padding: 20px;
+  }
+
+  nav > a {
+    padding: 5px 0;
+  }
+
+  footer > h3 {
+    font-size: 22px;
+    text-align: center;
+  }
+}
+
+
+
+
